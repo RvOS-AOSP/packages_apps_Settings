@@ -30,6 +30,14 @@
         settings:searchable="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>
 
+    <!-- RvOS Maintainer -->
+    <Preference
+        android:key="rvos_maintainer"
+        android:title="@string/rvos_maintainer"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+	settings:controller="com.android.settings.deviceinfo.firmwareversion.RvOSMaintainerPreferenceController"/>
+
     <!-- Security patch -->
     <Preference
         android:key="security_key"
