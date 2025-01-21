@@ -38,6 +38,14 @@
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.RvOSVersionPreferenceController"/>
 
+    <!-- RvOS build type -->
+    <Preference
+        android:key="rvos_build_type"
+        android:title="@string/rvos_build_type"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.RvOSBuildTypePreferenceController"/>
+
     <!-- RvOS Maintainer -->
     <Preference
         android:key="rvos_maintainer"

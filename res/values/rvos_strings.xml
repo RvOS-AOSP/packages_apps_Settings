@@ -18,6 +18,7 @@
 
     <!-- RvOS Version -->
     <string name="rvos_version">RvOS version</string>
+    <string name="rvos_build_type">Build type</string>
 
     <!-- Android debugging as root -->
     <string name="adb_enable_root">Rooted debugging</string>
