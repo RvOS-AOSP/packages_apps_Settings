@@ -135,6 +135,15 @@
     <PreferenceCategory
         android:title="@string/my_device_info_device_identifiers_category_title">
 
+	<!-- Baseband -->
+        <Preference
+            android:key="base_band"
+            android:title="@string/baseband_version"
+            android:summary="@string/summary_placeholder"
+            android:selectable="false"
+            settings:enableCopying="true"
+            settings:controller="com.android.settings.deviceinfo.firmwareversion.BasebandVersionPreferenceController"/>
+
         <!--IP address -->
         <Preference
             android:key="wifi_ip_address"
