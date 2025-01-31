@@ -551,9 +551,9 @@
     <string name="remove">Remove</string>
 
     <!-- Title of the Settings activity shown within the application itself. -->
-    <string name="settings_label">Settings</string>
+    <string name="settings_label">RvOS Settings</string>
     <!-- Title of the Settings activity shown in the Launcher. [CHAR LIMIT=20] -->
-    <string name="settings_label_launcher">Settings</string>
+    <string name="settings_label_launcher">RvOS Settings</string>
     <!-- Label for option to select a settings panel as a shortcut -->
     <string name="settings_shortcut">Settings shortcut</string>
     <!-- Wireless controls settings screen, setting check box label -->
@@ -7639,7 +7639,7 @@
 
     <!--Dashboard strings-->
     <!-- Text to describe the dashboard fragment title [CHAR LIMIT=16] -->
-    <string name="dashboard_title">Settings</string>
+    <string name="dashboard_title">RvOS Settings</string>
 
     <!-- Title for setting tile leading to network and Internet settings [CHAR LIMIT=40]-->
     <string name="network_dashboard_title">Network &amp; internet</string>
